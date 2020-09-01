@@ -1,10 +1,10 @@
 {
   "xlsx": {
     "head": 2,
-    "src": "./excel/**/[^~$]*.xlsx",
-    "dest": "./json"
+    "src": "./../../excel/**/[^~$]*.xlsx",
+    "dest": "./../../client/family/assets/resources/config"
   },
-  "ts": false,
+  "ts": true,
   "json": {
     "uglify": false
   }
